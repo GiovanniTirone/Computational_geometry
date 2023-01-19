@@ -1,7 +1,9 @@
-package vectors;
+package vector_points.vectors;
 import constants.dimensions.Dim2;
+import constants.relativePositions.RelPos;
+import vector_points.points.Point2d;
 
-public class Vector2d extends Vector<Dim2,Vector2d> {
+public class Vector2d extends Vector<Dim2,Vector2d, Point2d> {
 
     public Vector2d () throws NoSuchMethodException {
         super(Dim2.get(),Vector2d.class);
@@ -25,6 +27,8 @@ public class Vector2d extends Vector<Dim2,Vector2d> {
     public float cross (Vector2d v){
         return this.x() * v.y() - this.y() * v.x();
     }
+
+
 
 
 }

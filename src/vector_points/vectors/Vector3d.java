@@ -1,8 +1,9 @@
-package vectors;
+package vector_points.vectors;
 
 import constants.dimensions.Dim3;
+import vector_points.points.Point3d;
 
-public class Vector3d extends Vector<Dim3,Vector3d> {
+public class Vector3d extends Vector<Dim3,Vector3d, Point3d> {
 
     public Vector3d () throws NoSuchMethodException {
         super(Dim3.get(), Vector3d.class);

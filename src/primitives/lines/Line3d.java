@@ -1,4 +1,4 @@
-package primitives;
+package primitives.lines;
 
 import constants.dimensions.Dim3;
 import vector_points.points.Point3d;

@@ -1,5 +1,7 @@
 package tests.triangulation;
 
+import org.testng.Assert;
+import primitives.edges.Edge;
 import primitives.edges.Edge2d;
 import primitives.poligons.Polygon2d;
 import primitives.vertices.Vertex2d;
@@ -10,7 +12,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class TestTriangulation {
+public class TestTriangulationSquare {
 
 
     public static void main(String[] args) throws Exception {
@@ -53,6 +55,7 @@ public class TestTriangulation {
 
         edges.forEach(edge2d -> System.out.println(edge2d.getDetails()));
 
+        Assert.assertTrue(edges.contains(new Edge2d(d,b)));
 
         }
 }

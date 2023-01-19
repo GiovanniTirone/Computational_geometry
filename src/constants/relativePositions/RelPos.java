@@ -1,6 +1,6 @@
 package constants.relativePositions;
 
-public enum RelativePosition {
+public enum RelPos {
 
     LEFT, // if P is on the left respect to r
     RIGHT, // if P is on the right respect to r

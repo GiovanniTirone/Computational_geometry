@@ -1,4 +1,4 @@
-package primitives;
+package primitives.planes;
 
 import vector_points.points.Point3d;
 import vector_points.vectors.Vector3d;

@@ -1,4 +1,4 @@
-package Constants.dimensions;
+package constants.dimensions;
 
 public abstract class Dim {
 

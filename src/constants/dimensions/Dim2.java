@@ -1,4 +1,4 @@
-package Constants.dimensions;
+package constants.dimensions;
 
 public class Dim2 extends Dim {
 

@@ -1,4 +1,4 @@
-package primitives;
+package primitives.lines;
 
 import constants.dimensions.Dim;
 import vector_points.points.Point;
@@ -17,13 +17,13 @@ public class Line<Dimension extends Dim, V extends Vector<Dimension,V,P>, P exte
     public Line (P origin, P end )  {
         this.origin = origin;
         this.dir = origin.vectorTo(end);
-        this.dir.normalize();
+       // this.dir.normalize();
     }
 
     public Line(P origin, V dir){
         this.origin = origin;
         this.dir = dir;
-        this.dir.normalize();
+        //this.dir.normalize();
     }
 
     public P getOrigin() {
