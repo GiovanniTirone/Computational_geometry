@@ -36,6 +36,10 @@ public class Point <Dimension extends Dim , P extends Point<Dimension,P,V>, V ex
         return vector;
     }
 
+    public void set(int i, float value) {
+        vector.set(i,value);
+    }
+
     public P apply (V v) {
         P end = null;
         try {

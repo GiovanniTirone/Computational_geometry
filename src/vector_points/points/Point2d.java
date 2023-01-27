@@ -33,6 +33,14 @@ public class Point2d extends Point<Dim2,Point2d,Vector2d> {
         return this.vector.y();
     }
 
+    public void setX (float value) {
+        set(0,value);
+    }
+
+    public void setY (float value){
+        set(1,value);
+    }
+
     public String getDetails () {
         return vector.getDetails();
     }
